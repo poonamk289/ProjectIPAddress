@@ -5,65 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet"href="style.css">
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+         
 </head>
 <body>
-    <div class="IP"><b>IP Address:<span>1001</b></span></div>
+    <div class="IP"><b>IP Address:<span id="ipaddress" style="color: white;">1001</span></b></div>
     <div class="container1">
        
-       <div class="lat"><p>lat:</p>  <p> lon:</p></div>
-       <div class="city"><p>city:</p>  <p> Region:</p></div>
-       <div class="org"><p>Organisation:</p>  <p> HostName:</p></div>
+       <div class="lat" ><p>lat: <span id= "lat" style="color: white;"></span></p>  <p> lon:<span id= "lon" style="color: white;"></span></p></div>
+       <div class="city"><p>city: <span id= "city" style="color: white;"></span></p>  <p> Region:<span id= "region" style="color: white;"></span></p></div>
+       <div class="org"><p>Organisation:<span id= "org" style="color: white;"></span></p>  <p> HostName:<span id= "hostname" style="color: white;"> poonam</span></p></div>
        
  </div>
     <div class="location">
           <p style="font-size: 25px;"><b>Your Current Location</b></p>
-          <div class="photo"><img src=""alt="image"></div>
+          <div class="photo"></div>
 
     </div>
     <div class="information">
          <p style="text-align: center; font-size: 25px;">More Information About You</p>
             <div>
-                <p>Time Zone:</p>
-                <p>Date And Time:</p>
-                <p>Pincode:</p>
-                <p>Message:</p>
+                <p>Time Zone:<span id= "tz"></span></p>
+                <p>Date And Time:<span id= "date"></span></p>
+                <p>Pincode:<span id= "pin"></span></p>
+                <p>Message:<span id= "messg"></span></p>
            </div>
 
     </div>
     <div class="nearyou">
              <p style="text-align: center; font-size: 25px;">Post Offices Near You</p>
-             <div class="search"> <input type="text" name="search by name" placeholder="search by name"></div>
+             <div class="search"> <input type="text" name="search by name" placeholder="search by name" id="search"></div>
             <div class="final-div">
-                   <div class="f1"> <p>Name</p>
-                                   <p>Branch Type</p>
-                                    <p>Delivery Status</p>
-                                   <p>District</p>
-                                   <p>Division</p>
-                                      
-                
-                </div>
-                   <div class="f1" ><p>Name</p>
-                                  <p>Branch Type</p>
-                                  <p>Delivery Status</p>
-                                   <p>District</p>
-                                    <p>Division</p>
-                       </div>
-                       <div class="f1" ><p>Name</p>
+                   
+                       <!-- <div class="f1" ><p>Name</p>
                         <p>Branch Type</p>
                         <p>Delivery Status</p>
                          <p>District</p>
                           <p>Division</p>
-             </div>
-             
-
-
-
-
+             </div> -->
             </div>
 
 
 
     </div>
-
+    <script src="details.js">
+        </script>
 </body>
 </html>

@@ -102,6 +102,9 @@ text-align: center;
   
 
 }
+#search{
+    color: white;
+}
 input{
     width: 90vw;
     background-color: inherit;
